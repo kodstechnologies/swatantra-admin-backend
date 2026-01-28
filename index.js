@@ -13,7 +13,7 @@ const app = express()
 app.use(cors());
 app.use(express.json());
 app.get('/', (req, res) => {
-    res.send("test route")
+    res.send("test route 23:11")
 })
 
 // Serve static files like PDF from the 'public' directory
