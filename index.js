@@ -9,11 +9,11 @@ import cors from 'cors';
 const port = process.env.PORT
 
 const app = express()
-
+console.log("23:15")
 app.use(cors());
 app.use(express.json());
 app.get('/', (req, res) => {
-    res.send("test route 23:11")
+    res.send("test route 23:15")
 })
 
 // Serve static files like PDF from the 'public' directory
